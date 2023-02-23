@@ -1,0 +1,16 @@
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .image-wrapper {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .image-wrapper img {
+    max-width: 100%;
+  }
+  
